@@ -1,0 +1,20 @@
+.navbar-2 {
+  background: white;
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#email-form {
+  text-align: center;
+}
+.main-image {
+  display: inline-block;
+  width: 80%;
+  margin: 0 10%;
+  padding: 2rem 0;
+}
+.section {
+  height: fit-content;
+}
