@@ -18,6 +18,7 @@
   <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
   <script type="text/javascript">var submitted=false;</script>
+  <script type="text/javascript">var submitted1=false;</script>
   <script type="text/javascript">
   function submitted() {
 
@@ -167,10 +168,30 @@
     <div class="div-block">
       <h3 class="heading">Your Coding Notebook</h3>
     </div>
+    <div class="form-block w-form">
+      <div id="contact1" class="text-block-6 text-block-custom">Sign up to try the demo</div>
+      <form data-name="Email Form" class="form form-custom"
+       name="gform1" id="email-form1" enctype="text/plain"
+       action="https://docs.google.com/forms/d/e/1FAIpQLSfAPEme5QNo5ITbDj0L_eWZ8qCjxFIVIikng6concfMoiAlEQ/formResponse?" target="hidden_iframe1" onsubmit="
+        $('#email-form1 *').fadeOut(20);
+        $('#email-form1').prepend('Thank you for your reaching out!');
+        submitted1=true;"
+        >
+
+        <input type="email" class="text-field-2 w-input input-custom" maxlength="256" name="entry.369103029" data-name="Email" placeholder="Your email" id="entry.369103029" required="">
+
+        <input type="submit" value="Submit" data-wait="Please wait..." class="button w-button button-custom">
+
+      </form>
+       <iframe name="hidden_iframe1" id="hidden_iframe1" style="display:none;" onload="if(submitted1) {}"></iframe>
+
+   </div>
     <div style="position:relative">
       <img class="main-image" src="images/editor.png" />
     </div>
-    <div><a href="#contact" class="button w-button">Try Demo</a></div>
+
+
+    <!-- <div><a href="#contact" class="button w-button">Try Demo</a></div> -->
   </div>
   <div id="about" class="section-2">
     <div>
@@ -297,6 +318,9 @@
       <p class="heading-7">In <b>any browser<b></p>
       <p class="heading-7">In <b>any language<b></p>
       <p class="heading-7">For $5 a month</p>
+
+          <img class="main-image" src="images/info.png" />
+      <p class="heading-7"><b>Create &#9679; Organize &#9679; Share<b></p>
     </div>
     <div class="row w-row">
 
@@ -317,6 +341,7 @@
   </div>
   <div class="form-block w-form">
 
+
     <form data-name="Email Form" class="form"
      name="gform" id="email-form" enctype="text/plain"
      action="https://docs.google.com/forms/d/e/1FAIpQLSfAPEme5QNo5ITbDj0L_eWZ8qCjxFIVIikng6concfMoiAlEQ/formResponse?" target="hidden_iframe" onsubmit="
@@ -325,10 +350,9 @@
       submitted=true;"
       >
 
-      <input type="text" class="text-field w-input" maxlength="256" name="entry.1127867477" data-name="Name" placeholder="Your name " id="entry.1127867477" required="">
       <input type="email" class="text-field-2 w-input" maxlength="256" name="entry.369103029" data-name="Email" placeholder="Your email" id="entry.369103029" required="">
-      <textarea id="entry.2141239836" name="entry.2141239836" placeholder="Your message " maxlength="5000" class="textarea w-input"></textarea>
-      <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button">
+
+      <input type="submit" value="Submit" data-wait="Please wait..." class="button w-button">
 
     </form>
      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>

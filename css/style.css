@@ -1,6 +1,9 @@
 #email-form {
   text-align: center;
 }
+#email-form1 {
+  text-align: center;
+}
 .main-image {
   display: inline-block;
   width: 60%;
@@ -22,4 +25,12 @@
 
 .w-container {
   max-width: none;
+}
+
+.text-block-custom {
+  margin-top: 2rem;
+}
+
+.form-custom {
+  margin-bottom: 1rem;
 }
